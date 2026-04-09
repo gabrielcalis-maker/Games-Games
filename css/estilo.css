@@ -1,0 +1,179 @@
+.cabecalho {
+    background: #0540cc;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo input {
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.logo img{
+    width: 100px;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.area-login {
+    height: 70vh;
+    background-image: url('../imagem/fundogamer.png');
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-login {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+.campo-texto {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border: none;
+}
+
+.botao-entrar {
+
+    padding: 10px;
+    background-color: #2a36d6;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 320px;
+}
+
+.link-cadastro {
+    color: white;
+    font-size: 12px;
+    display: block;
+    margin: 15px 0;
+}
+
+.titulo-login{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linha-divisoria {
+    border: 0.5px solid white;
+}
+
+.botoes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.icone-social {
+    width: 35px;
+}
+
+.barra-vertical {
+    width: 1px;
+    height: 30px;
+    background-color: white;
+    margin: 0 15px;
+}
+
+.texto-senha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+
+}
+
+.esqueceu-senha {
+    color: white;
+    font-size: 12px;
+}
+
+.barra-vertical-esqueceu-senha {
+    width: 1px;
+    height: 30px;
+    background-color: white;
+    margin: 0 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: #2c3ecf;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.email {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.email input {
+    padding: 8px;
+    width: 200px;
+}
+
+.email button {
+    padding: 8px 15px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.rodape div {
+    margin: 10px;
+}
